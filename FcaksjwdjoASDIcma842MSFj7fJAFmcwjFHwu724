@@ -1,3 +1,14 @@
+  local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+
+wait(0.3);
+
+Notify({
+Description = "Inspect Z Silent Private";
+Title = "Loaded successfully.";
+Duration = 5;
+});
+ 
   if not LPH_OBFUSCATED then
     LPH_NO_VIRTUALIZE = function(...)
         return (...)
